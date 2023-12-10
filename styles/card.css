@@ -1,0 +1,62 @@
+/*Deixando padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+  width: 80%;
+  border: 1px solid gray;
+  /*Utilizando display flex para colocar os elementos ao lado do outro*/
+  display: flex;
+  flex-direction: row; /*Colocando os elemento em linha */
+/*Espaçamento entre os elementos*/
+justify-content: space-between;
+
+
+  /*Utilizando box shadow generator criado em outro site*/
+  -webkit-box-shadow: 11px 9px 5px 0px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 11px 9px 5px 0px rgba(0, 0, 0, 0.43);
+  box-shadow: 11px 9px 5px 0px rgba(0, 0, 0, 0.43);
+}
+
+/*
+.card_left, .card_right {
+    border: 1px solid blue;
+}
++/
+/*Ajutando os elemento da esquerda*/
+.card_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card_left span {
+  font-weight: bold;
+}
+
+/*pegando a tag dentro da div card_left h1*/
+.card_left a {
+  margin-top: 15px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card_left p {
+  color: rgb(72, 69, 69);
+}
+.foto_perfil {
+    width: 20px;
+    height: 20px;
+}
+
+.img-vader {
+    height: 100%;
+}
+
